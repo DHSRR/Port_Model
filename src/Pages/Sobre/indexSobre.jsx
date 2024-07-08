@@ -15,16 +15,15 @@ function Sobre() {
             </figure>
             <div className={styles.bio}>
                 <img src={avatar} className={styles.avatar}></img>
-            
-            <div className={styles.texto}>
-                <p> Olá seja bem vindo(a). </p>
 
-                <p>Prazer, me chamo <span> Denis Henrique Rodrigues </span>
-                    um Carioca da Gema de 39 anos. <br/> Sou formado como Técnico em Mecânica Industrial e Tecnólogo em Gastronomia (Cozinhar é a minha maior paixão depois do <strong><u>Flamengo</u></strong> é claro!) </p>
+                <div className={styles.texto}>
+                    <p> Olá seja bem vindo(a). </p>
+                    <p>Prazer, me chamo <span> Denis Henrique Rodrigues </span>
+                        um Carioca da Gema de 39 anos. Sou formado como Técnico em Mecânica Industrial e Tecnólogo em Gastronomia (Cozinhar é a minha maior paixão depois do <strong><u>Flamengo</u></strong> é claro!) </p>
                     <p> Hoje busco estudar sobre Tecnologia de forma autonoma acompanhando vídeos e outros conteúdos na busca de uma transição de carreira para área de TI.</p>
-                    <p>Logo um futuro Desenvolver Fronte-end.</p>
- 
-            </div>
+                    <p>Logo um futuro Desenvolver Front-end.</p>
+
+                </div>
             </div>
 
             <div className={styles.techs}>

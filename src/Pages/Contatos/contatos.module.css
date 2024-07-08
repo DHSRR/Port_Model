@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: space-evenly;
     padding-block: 1.5rem;
-    
   }
 
   .icones a{
@@ -27,4 +26,5 @@
     font-size: x-large;
     color: yellow;
   }
+
 

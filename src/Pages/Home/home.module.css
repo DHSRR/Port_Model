@@ -1,14 +1,20 @@
 .home {
     font-family: "Playwrite ES", cursive;
     width: 100%;
-    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
   
   .home img{
-    height: 500px;
+    max-height: 400px;
+  }
+
+  .home .apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
   }
   
   .home p{
@@ -16,19 +22,29 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: var(--white);
   }
   
   .home span{
     font-family: "Playwrite MX", cursiveo;
     color: #0030fe;
   }
+
+  .home a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem !important;
+    color: #0030fe;
+    text-decoration: none;
+  }
   
   .btn {
-    width: 220px;
-    height: 50px;
+    width: 210px;
+    height: 40px;
     border: none;
     outline: none;
-    background: #111;
+    background: transparent;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -53,7 +69,7 @@
 }
 
 .btn:active {
-    color: #0030fe
+  color: white;
 }
 
 .btn:active:after {
@@ -98,7 +114,7 @@
 }
 
 .btn_r:active {
-  color: #0030fe
+  color: white
 }
 
 .btn_r:active:after {
